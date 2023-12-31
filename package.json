@@ -16,7 +16,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-skillbars": "^2.2.0",
-    "react-skills": "^1.27.0"
+    "react-skills": "^1.27.0",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^2.0.6"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",

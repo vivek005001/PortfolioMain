@@ -7,6 +7,7 @@ import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
 import SwiftServe from "/Users/vivek/Downloads/Residue/Portfolio/public/images/projects/Swift Serve.png";
 import { motion } from "framer-motion";
+import TransitionEffect from "@/components/TransitionEffect";
 const FramerImage = motion(Image);
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
@@ -123,6 +124,7 @@ const Projetcs = () => {
         <title>Vivek Aggarwal | Projects Page</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
